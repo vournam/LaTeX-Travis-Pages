@@ -23,7 +23,7 @@ before_deploy:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: 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
   on:
     branch: master
   local_dir: texFiles/deploy
